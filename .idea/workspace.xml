@@ -3,20 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1701f615-2c2f-4760-a624-5b9ba2e572da" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/dropdown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/editor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/form_select.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/form_select.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/sheet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/sheet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/data_proxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/data_proxy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/format.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/format.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/helper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/history.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/history.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/row.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/row.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,19 +25,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/Shared/GitHub/xsheet",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.tabs",
-    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+    "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
   <component name="RunManager" selected="Shell Script.calcsys">
@@ -130,6 +104,7 @@
       <workItem from="1663117400619" duration="16135000" />
       <workItem from="1663424470718" duration="718000" />
       <workItem from="1663548604083" duration="11876000" />
+      <workItem from="1664471937342" duration="6000" />
     </task>
     <servers />
   </component>
@@ -146,16 +121,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/component/sheet.js</url>
-          <line>936</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
