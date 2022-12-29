@@ -118,6 +118,10 @@
           console.log('cell deleted:', ', ri: ', ri, ', ci:', ci);
         }).on('deleted-cell-format', (ri, ci) => {
           console.log('cell format deleted:', ', ri: ', ri, ', ci:', ci);
+        }).on('pasted', (e,t) => {
+          console.log('cell pasted:', ', e: ', e,t);
+        }).on('copied', (e,t) => {
+          console.log('cell copied:', ', e: ', e, t);
         });
 
       setTimeout(() => {

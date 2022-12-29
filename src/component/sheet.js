@@ -721,12 +721,14 @@ function sheetInitEvents() {
   bind(window, 'paste', (evt) => {
     if (!this.focusing) return;
     paste.call(this, 'all', evt);
+    this.trigger('pasted', evt, this);
     evt.preventDefault();
   });
 
   bind(window, 'copy', (evt) => {
     if (!this.focusing) return;
     copy.call(this, evt);
+    this.trigger('copied', evt, this);
     evt.preventDefault();
   });
 
@@ -757,6 +759,7 @@ function sheetInitEvents() {
         case 67:
           // ctrl + c
           copy.call(this);
+          this.trigger('copied', evt, this);
           evt.preventDefault();
           break;
         case 88:
