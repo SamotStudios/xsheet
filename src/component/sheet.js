@@ -522,7 +522,7 @@ console.log('Event Triggered:', type, ri, ci)
   } else if (type === 'delete-cell-format') {
     data.deleteCell('format');
   } else if (type === 'delete-cell-text') {
-    data.deleteCell('text');
+    // data.deleteCell('text');
   } else if (type === 'cell-printable') {
     data.setSelectedCellAttr('printable', true);
   } else if (type === 'cell-non-printable') {
