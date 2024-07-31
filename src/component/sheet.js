@@ -508,7 +508,7 @@ function insertDeleteRowColumn(type) {
   if (data.settings.mode === 'read') return;
   const { ri, ci } = data.selector;
   this.trigger(type, ri, ci);
-console.log('Event Triggered:', type, ri, ci)
+// console.log('Event Triggered:', type, ri, ci)
   if (type === 'insert-row') {
     data.insert('row');
   } else if (type === 'delete-row') {

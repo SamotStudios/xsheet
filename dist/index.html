@@ -14,6 +14,7 @@
   <script>
     var xs ;
     function load(){
+      window.addEventListener('SSColorChange',  (e) => console.log('SSColorChange!!!', e.detail) )
       const rows10 = { len: 1000 };
       for (let i = 0; i < 1000; i += 1) {
         rows10[i] = {
@@ -101,8 +102,9 @@
             "value": "a,b,c"
           }],
           rows,
-        }, { name: 'sheet-test', rows: rows10 }]).change((cdata) => {
-          // console.log(cdata);
+        }, { name: 'sheet-test', rows: rows10 }]).change(
+                (cdata) => {
+          console.log('change detected',cdata);
           console.log('>>>', xs.getData());
         });
 

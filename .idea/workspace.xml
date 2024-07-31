@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1701f615-2c2f-4760-a624-5b9ba2e572da" name="Changes" comment="a">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/xspreadsheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/xspreadsheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/xspreadsheet.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/xspreadsheet.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/xspreadsheet.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/xspreadsheet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/xspreadsheet.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/xspreadsheet.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/scrollbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/scrollbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/dropdown_color.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/dropdown_color.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/sheet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/sheet.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,29 +24,32 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/usr/local/Cellar/php/8.3.7/bin/php" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
   <component name="ProjectId" id="2B9JrIhv7kbB1J6GUpDvA9VKuTu" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/Shared/GitHub/xsheet&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/Shared/GitHub/xsheet",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Run",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="npm.build">
+}]]></component>
+  <component name="RunManager" selected="npm.dev">
     <configuration name="calcsys" type="ShConfigurationType" activateToolWindowBeforeRun="false">
       <option name="SCRIPT_TEXT" value="cp dist/xsp* ../calc/public/js/dist/." />
       <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
@@ -108,6 +109,14 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PS-241.15989.102" />
+        <option value="bundled-php-predefined-ba97393d7c68-c76157a7178b-com.jetbrains.php.sharedIndexes-PS-241.15989.102" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -126,7 +135,18 @@
       <workItem from="1663548604083" duration="11876000" />
       <workItem from="1664556348573" duration="46000" />
       <workItem from="1664945449578" duration="1038000" />
-      <workItem from="1665579079339" duration="401000" />
+      <workItem from="1665579079339" duration="845000" />
+      <workItem from="1668210340614" duration="138000" />
+      <workItem from="1668884357696" duration="14000" />
+      <workItem from="1669399552902" duration="803000" />
+      <workItem from="1669684097952" duration="11000" />
+      <workItem from="1670797197845" duration="7000" />
+      <workItem from="1672251043654" duration="11000" />
+      <workItem from="1672254775000" duration="423000" />
+      <workItem from="1672295006754" duration="1217000" />
+      <workItem from="1672335776638" duration="3026000" />
+      <workItem from="1697421107749" duration="2602000" />
+      <workItem from="1722456166587" duration="3678000" />
     </task>
     <servers />
   </component>
@@ -147,16 +167,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="a" />
     <option name="LAST_COMMIT_MESSAGE" value="a" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/component/sheet.js</url>
-          <line>942</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
