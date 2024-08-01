@@ -538,6 +538,7 @@ function insertDeleteRowColumn(type) {
 
 function toolbarChange(type, value) {
   const { data } = this;
+  window.dispatchEvent(new CustomEvent("XSToolbarEvent",{detail: {type: type, value: value}}));
   if (type === 'undo') {
     this.undo();
   } else if (type === 'redo') {
